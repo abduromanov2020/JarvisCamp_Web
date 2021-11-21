@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Buat Account Baru!</h2>
+    <h4>Sign Up Form</h4>
+
+    <form action="/welcome" method="get">
+        <div>
+            <label for="">First Name :</label><br><br>
+            <input type="text" name="namaDepan"><br><br>
+        </div>
+
+        <div>
+            <label for="">Last Name :</label><br><br>
+            <input type="text" name="namaBelakang"><br><br>
+        </div>
+
+        <div>
+            <label for="">Gender :</label><br><br>
+            <input type="radio">Male<br>
+            <input type="radio">Female<br>
+            <input type="radio">Other<br><br>
+        </div>
+
+        <div>
+            <label for="">Nationality</label><br><br>
+            <select>
+                <option>Indonesian</option>
+                <option>Singaporeian</option>
+                <option>Malaysian</option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <label for="">Language Spoken</label><br><br>
+            <input type="checkbox"> I Have a bike<br>
+            <input type="checkbox"> I Have a car<br>
+            <input type="checkbox"> I Have a boat<br><br>
+        </div>
+
+        <div>
+            <label for="">Bio</label><br><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+        </div>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+
+</html>
