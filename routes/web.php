@@ -3,6 +3,7 @@
 use App\Http\Controllers\authController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\homeController;
+use App\Http\Controllers\TableController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,6 @@ use App\Http\Controllers\homeController;
 Route::get('/', [homeController::class, 'index']);
 Route::get('/register', [authController::class, 'register']);
 Route::get('/welcome', [authController::class, 'welcome']);
+
+Route::get('/table', [TableController::class, 'index']);
+Route::get('/data-table', [TableController::class, 'datatable']);
