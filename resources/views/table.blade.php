@@ -2,8 +2,6 @@
 
 @section('container')
 
-
-
 <table class="table table-bordered">
     <thead>
         <tr>
